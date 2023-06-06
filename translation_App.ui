@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>428</width>
+    <height>568</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>203</y>
+      <width>81</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <italic>true</italic>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+border : 2px solid rgb(77, 61, 255);
+background-color : rgb(116, 195, 255);
+border-radius : 10px;
+color : white
+}
+
+QPushButton:hover{
+background-color: rgb(84, 78, 255);
+border: 3px solid  rgb(203, 232, 255);
+font-size: 14px;
+}</string>
+    </property>
+    <property name="text">
+     <string>Translate</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>0</y>
+      <width>191</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>250</y>
+      <width>81</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <italic>true</italic>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+border : 2px solid rgb(77, 61, 255);
+background-color : rgb(116, 195, 255);
+border-radius : 10px;
+color : white
+}
+
+QPushButton:hover{
+background-color: rgb(84, 78, 255);
+border: 3px solid  rgb(203, 232, 255);
+font-size: 14px;
+}</string>
+    </property>
+    <property name="text">
+     <string>Clear</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox_2">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>280</y>
+      <width>191</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>30</y>
+      <width>381</width>
+      <height>171</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit{
+    color : black;
+    font-size: 14px;
+	background-color:  rgb(203, 232, 255);
+    border : 2px solid rgb(48, 33, 255);
+    border-radius : 10px;
+   
+}
+
+QLineEdit:focus{
+border: 2px solid rgb(247, 26, 255)
+}</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_2">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>310</y>
+      <width>381</width>
+      <height>171</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit{
+	background-color:  rgb(203, 232, 255);
+    border : 2px solid rgb(48, 33, 255);
+    border-radius : 10px;
+    color : black;
+    font-size: 14px
+   
+}
+
+QLineEdit:focus{
+border: 2px solid rgb(247, 26, 255)
+}</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>280</y>
+      <width>101</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <italic>true</italic>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+border : 2px solid rgb(11, 68, 255);
+background-color : rgb(121, 255, 148);
+border-radius : 10px;
+color : black
+}
+
+QPushButton:hover{
+background-color: rgb(84, 78, 255);
+border: 3px solid  rgb(203, 232, 255);
+font-size: 14px;
+color : white
+}</string>
+    </property>
+    <property name="text">
+     <string>Text to speech</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_4">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>490</y>
+      <width>101</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <italic>true</italic>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+border : 2px solid rgb(11, 68, 255);
+background-color : rgb(121, 255, 148);
+border-radius : 10px;
+color : black
+}
+
+QPushButton:hover{
+background-color: rgb(84, 78, 255);
+border: 3px solid  rgb(203, 232, 255);
+font-size: 14px;
+color : white
+}</string>
+    </property>
+    <property name="text">
+     <string>Female Voice</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>428</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
