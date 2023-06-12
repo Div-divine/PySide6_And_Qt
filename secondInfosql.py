@@ -4,6 +4,7 @@ from PySide6.QtGui import QStandardItem, QStandardItemModel
 import pymysql
 from pymysql.cursors import DictCursor
 from PySide6.QtCore import QAbstractItemModel, QModelIndex, Qt
+from important_info import PASSWORD
 
 
 
@@ -132,7 +133,7 @@ class App(QMainWindow):
         database = pymysql.connect(
         host="localhost",
         user="root",
-        password="divineosuuweb@123",
+        password=PASSWORD,
         database="testdb"
         )
 
@@ -198,7 +199,7 @@ class App(QMainWindow):
         database = pymysql.connect(
         host="localhost",
         user="root",
-        password="divineosuuweb@123",
+        password=PASSWORD,
         database="testdb"
         ) 
 
@@ -283,7 +284,7 @@ class App(QMainWindow):
         database = pymysql.connect(
         host="localhost",
         user="root",
-        password="divineosuuweb@123",
+        password=PASSWORD,
         database="testdb"
         )  
 
@@ -314,7 +315,7 @@ class App(QMainWindow):
         database = pymysql.connect(
         host="localhost",
         user="root",
-        password="divineosuuweb@123",
+        password=PASSWORD,
         database="testdb"
         )  
 
@@ -344,7 +345,7 @@ class App(QMainWindow):
         database = pymysql.connect(
         host="localhost",
         user="root",
-        password="divineosuuweb@123",
+        password=PASSWORD,
         database="testdb"
         )  
 
@@ -374,7 +375,7 @@ class App(QMainWindow):
         database = pymysql.connect(
         host="localhost",
         user="root",
-        password="divineosuuweb@123",
+        password=PASSWORD,
         database="testdb"
         )  
 
@@ -404,7 +405,7 @@ class App(QMainWindow):
         database = pymysql.connect(
         host="localhost",
         user="root",
-        password="divineosuuweb@123",
+        password=PASSWORD,
         database="testdb"
         )  
 
@@ -434,7 +435,7 @@ class App(QMainWindow):
         database = pymysql.connect(
         host="localhost",
         user="root",
-        password="divineosuuweb@123",
+        password=PASSWORD,
         database="testdb"
         )  
 
@@ -464,7 +465,7 @@ class App(QMainWindow):
         database = pymysql.connect(
         host="localhost",
         user="root",
-        password="divineosuuweb@123",
+        password=PASSWORD,
         database="testdb"
         )  
 
@@ -494,7 +495,7 @@ class App(QMainWindow):
         database = pymysql.connect(
         host="localhost",
         user="root",
-        password="divineosuuweb@123",
+        password=PASSWORD,
         database="testdb"
         )  
 
@@ -524,7 +525,7 @@ class App(QMainWindow):
         database = pymysql.connect(
         host="localhost",
         user="root",
-        password="divineosuuweb@123",
+        password=PASSWORD,
         database="testdb"
         )  
 
@@ -554,7 +555,7 @@ class App(QMainWindow):
         database = pymysql.connect(
         host="localhost",
         user="root",
-        password="divineosuuweb@123",
+        password=PASSWORD,
         database="testdb"
         )  
 
@@ -601,7 +602,7 @@ class App(QMainWindow):
         database = pymysql.connect(
         host="localhost",
         user="root",
-        password="divineosuuweb@123",
+        password=PASSWORD,
         database="testdb"
         )
 
@@ -681,7 +682,7 @@ class App(QMainWindow):
         database = pymysql.connect(
         host="localhost",
         user="root",
-        password="divineosuuweb@123",
+        password=PASSWORD,
         database="testdb"
         )
          # Connect to the database
